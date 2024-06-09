@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Empresa</title>
+    <link rel="stylesheet" href="css/informacion.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: rgb(226, 226, 88);
+        }
+    </style>
+    <header>
+        <h1>Nuestra Empresa</h1>
+        <nav>
+            <ul>
+                <a href="index.html">
+                <img src="Imgages/bananaaa.png" style="width: 150px; height: 100px;" alt="">
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="quienes-somos">
+            <h2>Quiénes Somos</h2>
+            <p>
+                Nos salió una noticia sobre la mala alimentación que influye hoy en dia en la vida cotidian de los
+                niños, tanto en occidente como en mediterraneo, tuvimos una charla larga y profunda sobre ello, y
+                quisimos llevar a cabo que la empresa tratará de cambiar esos hábitos o incitar a tener una alimentación
+                más saludable.
+
+                En nuestra empresa lo primordial es mantener a la gente en un ámbito saludable.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información, por favor contáctenos a través del siguiente correo electrónico: <a
+                    href="mailto:info@nuestraempresa.com">etito@inscaparrella.cat</a></p>
+            <form action="enviar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nuestra Empresa. Todos los derechos mi loco.</p>
+    </footer>
+</body>
+
+</html>

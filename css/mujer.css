@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #fff;
+    background-color: #000000;
     color: #000;
     padding: 20px 0;
     text-align: center;
@@ -59,7 +59,7 @@ header nav ul li a {
 }
 
 footer {
-    background-color: #fff;
+    background-color: #000000;
     color: #000;
     text-align: center;
     padding: 10px 0;
